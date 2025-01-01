@@ -16,3 +16,41 @@ header > h1{
     margin-top: 1%;
     margin-bottom: 1%;
 }
+hr{
+    margin-bottom: 0;
+}
+ul{
+    margin-top: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+nav{
+    position: absolute;
+    top:3%;
+    left:77%;
+}
+a{
+    display:block;
+    text-decoration: none;
+    padding:5px;
+    text-align:center;
+    background-color: hsl(0, 0%, 40%);
+    color: white;
+    font-size: 11pt;
+    border-radius:10%;
+}
+a:hover{
+    background-color:hsl(0, 0%, 10%);
+}
+a:active{
+    background-color: hsl(0, 0%, 60%);
+}
+li{
+    float:left;
+    margin-right:2px;
+}
+@media screen and (max-width: 800px){
+    nav{
+        display: none;
+    }
+}
